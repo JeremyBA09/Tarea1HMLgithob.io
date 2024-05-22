@@ -1,0 +1,32 @@
+/*cometario en CSS*/
+
+
+
+table th{
+
+text-transform: uppercase;
+letter-spacing: 4px;
+}
+
+tbody td{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+thead {
+    background-color: blanchedalmond; 
+    color: black;
+}
+ table tbody:nth-child(even ){
+    background-color: blueviolet;
+ }
+
+ #cita{
+    color: black;
+    background-attachment: #000(0, 0, 0, 0.6);
+ }
+
+ header {
+background-image: url(../img/header.jpg);
+background-repeat: repeat-x;
+ }
