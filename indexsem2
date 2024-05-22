@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Librería UTN</title>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="./img/Logo.png" alt="Logo Librería UTN">
+        </a>
+        <blockquote id="cita">
+            <p>Un lector vive mil vidas antes de morir. La persona que nunca lee vive solamente una. <br />
+                <span >George R. R. Martin</span>
+            </p>
+
+        </blockquote>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Catálogo</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#novedades">Novedades</a></li>
+            <li><a href="#video">Multimedia</a></li>
+            <li><a href="#">¿Quiénes somos?</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <main >
+        <section id="eventos" >
+            <h1>Eventos</h1>
+            <article >
+                <div >
+                    <h5>Firma de Libros Autor: Carlos Rubio Torres</h5>
+                    <dl>
+                        <dt>Fecha</dt>
+                        <dd>20 de junio</dd>
+                        <dt>Hora</dt>
+                        <dd>2 pm</dd>
+                        <dt>Lugar</dt>
+                        <dd>Curridabat</dd>
+                    </dl>
+                </div>
+                <div >
+                    <p>
+                        Escritor costarricense.
+                        <b>Es profesor experto en literatura infantil</b> y narración oral, en la Universidad de Costa
+                        Rica
+                        (UCR) y en la Universidad Nacional de Costa Rica (UNA).
+                        <br />Está titulado en pedagogía y cuenta con un posgrado en literatura latinoamericana.
+
+                    </p>
+                </div>
+
+            </article>
+            <article >
+                <h1>Libros del Autor</h1>
+
+                <ul >
+                    <li><span class="material-icons">
+                            book
+                        </span>
+                        La vida entre los labios (1985)</li>
+                    <li><span class="material-icons">
+                            book
+                        </span>Queremos jugar (1990)</li>
+                    <li><span class="material-icons">
+                            book
+                        </span>Pedro y su teatrino maravilloso (1993)</li>
+                    <li><span class="material-icons">
+                            book
+                        </span>Escuela de hechicería, matrícula abierta (1996)</li>
+                    <li><span class="material-icons">
+                            book
+                        </span>El libro de la Navidad (2001)</li>
+                    <li><span class="material-icons">
+                            book
+                        </span>La mujer que se sabía todos los cuentos (2003)</li>
+                    <li><span class="material-icons">
+                            book
+                        </span>Papá es un campeón (2006)</li>
+                    <li><span class="material-icons">
+                            book
+                        </span>Las mazorcas prodigiosas de Candelaria Soledad (2011)</li>
+                    <li><span class="material-icons">
+                            book
+                        </span>El príncipe teje tapices (2012)</li>
+                    <li><span class="material-icons">
+                            book
+                        </span>La danta en la pasarela (2013)</li>
+                    <li><span class="material-icons">
+                            book
+                        </span>El espejo de la Patria. El Teatro Nacional de Costa Rica contado a la niñez (2015).</li>
+                </ul>
+            </article>
+        </section>
+        <section id="#novedades" >
+            <h1>Novedades</h1>
+
+            <article>
+                <img src="./img/libro1.jpeg" alt="Portada Mil ojos esconde la noche. La ciudad sin luz">
+                <div >
+                    <h4 >Mil ojos esconde la noche. La ciudad sin luz</h4>
+                    <p >
+                        Juan Manuel de Prada
+                    </p>
+                    <p >&euro;23,65</p>
+                    <p>
+                        Singular, polémica y brillante, la novela más ambiciosa de Juan Manuel de Prada. Llevábamos mucho tiempo esperando una obra así.   
+                    </p>
+                    <ul>
+                        <li>Novela contemporánea</li>
+                        <li>Narrativa española</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article >
+                <img src="./img/libro2.jpeg" alt="Portada Las brujas de brooklyn 1">
+                <div >
+                    <h4 > Las brujas de brooklyn 1 </h4>
+                    <p >
+                        Sophie Escabasse
+                    </p>
+                    <p >&euro;23,65</p>
+                    <p>
+                        ¡Hay una nueva bruja en la ciudad!  Effie tiene nuevo hogar, nueva escuela y nuevos amigos (aunque resulte difícil al principio).
+                    </p>
+                    <ul >
+                        <li>Cómic y manga infantil</li>
+                        <li>Cómic y niños 11-12 años</li>
+                    </ul>                   
+                </div>
+            </article>
+            <article >
+                <img src="./img/libro3.jpeg" alt="Portada ">
+                <div >
+                    <h4 >Las manos cálidas de los fantasmas </h4>
+                    <p></p> 
+                        Katherine Arden
+                    </p>
+                    <p >&euro;23,65</p>
+                    <p>
+                        En un mundo destruido por la guerra, dos hermanos harán lo imposible por encontrarse.
+                    </p>
+                    <ul >
+                        <li>Narrativa fántastica</li>
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+
+        <section id="video">
+            <h1>Multimedia</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ueeWYsK6Xeg?si=yv25hygZYh8YQJov" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+            <video controls="controls" style="margin-left:20%">
+                <source src="./video/video1.mp4"  />
+            </video>
+        </section>
+        
+    </main>
+    <footer>
+        Curso ISW-512 Diseño de Aplicaciones Web 
+    </footer>
+</body>
+
+</html>
